@@ -7,10 +7,6 @@
 
 from datetime import datetime, timedelta
 import FormatValues as Fv
-import matplotlib.pyplot as plt
-import math
-
-
 
 
 # initialize today's date
@@ -301,7 +297,7 @@ while True:
     else:
         print(" Y  for Yes or  N  for No.")
 
-
+# Open default file, overwrite policy num and format, then close the file
 f = open('OSICDef.dat', 'w')
 
 f.write("{}\n".format(str(POLICY_NUM)))

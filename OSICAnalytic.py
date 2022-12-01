@@ -1,4 +1,9 @@
 # ONE STOP INSURANCE COMPANY
+# DATA ANALYTIC FOR YEAR TO DATE TOTAL MONTHLY CLAIM AMOUNTS
+
+# AUTHOR: JONATHAN IVANY
+# DATE: 2022-11-27
+
 import matplotlib.pyplot as plt
 from datetime import datetime
 
@@ -16,7 +21,7 @@ y_axis = []
 x_axis = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
-# Take user input of total monthly claims and add it to the y axis list
+# Take user input of total monthly claims and add it to the y-axis list
 # Validations are to make sure user inputs only integers
 print(f"Enter total amount of claims per month of {TodayYear}")
 print("----------------------------------------------")
